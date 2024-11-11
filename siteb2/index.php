@@ -1,6 +1,15 @@
 <?php 
   include 'inc/cookie.inc.php'; // Подключаем файл с cookie
   include 'inc/headers.inc.php'; 
+  // Имя файла журнала
+define('PATH_LOG', 'path.log'); // Определяем константу для пути к файлу журнала
+include 'inc/log.inc.php'; // Подключаем файл, который будет обрабатывать запись в журнал
+// Подключение контента в зависимости от параметра id
+if (isset($_GET['id']) && $_GET['id'] == 'log') {
+  $content = 'inc/view-log.inc.php'; // Путь к файлу с журналом посещений
+} else {
+  $content = 'inc/routing.inc.php'; // Путь к файлу с основным контентом
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -54,6 +63,7 @@
       <li><a href='index.php?id=about'>О нас</a></li>
       <li><a href='index.php?id=info'>Информация</a></li>
       <li><a href='index.php?id=gbook'>Гостевая книга</a></li>
+      <li><a href='index.php?id=log'>Журнал посещений</a></li>
     </ul>
     <!-- Навигация -->
   </div>
