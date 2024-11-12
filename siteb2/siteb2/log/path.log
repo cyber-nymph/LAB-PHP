@@ -1,0 +1,12 @@
+2024-11-11 08:02:30|/siteb2/index.php?id=log|http://localhost/siteb2/
+2024-11-11 08:02:49|/siteb2/index.php?id=info|http://localhost/siteb2/index.php?id=log
+2024-11-11 08:02:49|/siteb2/index.php?id=contact|http://localhost/siteb2/index.php?id=info
+2024-11-11 08:02:50|/siteb2/index.php?id=gbook|http://localhost/siteb2/index.php?id=contact
+2024-11-11 08:06:20|/siteb2/index.php?id=gbook|http://localhost/siteb2/index.php?id=contact
+2024-11-11 08:06:22|/siteb2/index.php?id=log|http://localhost/siteb2/index.php?id=gbook
+2024-11-12 08:35:20|/siteb2/|-
+2024-11-12 08:35:59|/siteb2/index.php?id=gbook|http://localhost/siteb2/
+2024-11-12 08:36:28|/siteb2/index.php?id=gbook|http://localhost/siteb2/index.php?id=gbook
+2024-11-12 08:38:54|/siteb2/index.php?id=gbook|http://localhost/siteb2/index.php?id=gbook
+2024-11-12 08:39:05|/siteb2/index.php?id=gbook&del=2|http://localhost/siteb2/index.php?id=gbook
+2024-11-12 08:40:34|/siteb2/index.php?id=gbook&del=1|http://localhost/siteb2/index.php?id=gbook&del=2
